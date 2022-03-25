@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ej1 : MonoBehaviour
+public class Ej05 : MonoBehaviour
 {
 //    Realizá un programa que, dados dos números enteros num1 y num2 cargados desde el
 //Inspector muestre el resultado de la división del primero por el segundo en la consola
