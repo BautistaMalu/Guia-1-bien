@@ -21,9 +21,9 @@ public class EJ09 : MonoBehaviour
     void Start()
     {
         total = p1 + p2 + p3;
-        Debug.Log(nombre1 + " aporto " + p1 + "$ de capital, el porcentaje es " + (total/100 *p1) + " y el monto total es " + total + "$");
-        Debug.Log(nombre2 + " aporto " + p2 + "$ de capital, el porcentaje es " + (total / 100 * p2) + " y el monto total es " + total + "$" );
-        Debug.Log(nombre2 + " aporto " + p3 + "$ de capital, el porcentaje es " + (total / 100 * p3) + " y el monto total es " + total + "$" );
+        Debug.Log(nombre1 + " aporto " + p1 + "$ de capital, el porcentaje es " + (p1 * 100 / total) + "% y el monto total es " + total + "$");
+        Debug.Log(nombre2 + " aporto " + p2 + "$ de capital, el porcentaje es " + (p2 * 100 / total) + "% y el monto total es " + total + "$" );
+        Debug.Log(nombre2 + " aporto " + p3 + "$ de capital, el porcentaje es " + (p3 * 100 / total) + "% y el monto total es " + total + "$" );
 
     }
 
